@@ -1,16 +1,16 @@
 
-|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | Deis Workflow will soon no longer be maintained.<br />Please [read the announcement](https://deis.com/blog/2017/deis-workflow-final-release/) for more detail. |
+|![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/156px-Warning.svg.png) | Deis Workflow will soon no longer be maintained.<br />Please [read the announcement](https://deis.cc/blog/2017/deis-workflow-final-release/) for more detail. |
 |---:|---|
 | 09/07/2017 | Deis Workflow [v2.18][] final release before entering maintenance mode |
 | 03/01/2018 | End of Workflow maintenance: critical patches no longer merged |
 
 # Deis Slugrunner v2
-[![Build Status](https://ci.deis.io/job/slugrunner/badge/icon)](https://ci.deis.io/job/slugrunner)
-[![Docker Repository on Quay](https://quay.io/repository/deisci/slugrunner/status "Docker Repository on Quay")](https://quay.io/repository/deisci/slugrunner)
+[![Build Status](https://ci.deis.cc/job/slugrunner/badge/icon)](https://ci.deis.cc/job/slugrunner)
+[![Docker Repository on Quay](https://quay.io/repository/deiscc/slugrunner/status "Docker Repository on Quay")](https://quay.io/repository/deiscc/slugrunner)
 
 Deis (pronounced DAY-iss) Workflow is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any [Kubernetes](http://kubernetes.io) cluster, making it easy to deploy and manage applications on your own servers.
 
-For more information about the Deis Workflow, please visit the main project page at https://github.com/deisthree/workflow.
+For more information about the Deis Workflow, please visit the main project page at https://github.com/deiscc/workflow.
 
 ## Beta Status
 
@@ -20,7 +20,7 @@ This Deis component is currently in beta status, and we welcome your input! If y
 
 The slugrunner downloads a [slug](https://devcenter.heroku.com/articles/slug-compiler) from a specified [Minio][minio], [S3][s3], [GCS][gcs], or [Azure][azure] storage service and runs it based on its [Procfile](https://devcenter.heroku.com/articles/procfile).
 
-This component is usually launched by the [Deis Controller](https://github.com/deisthree/controller) and used inside the Deis [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service), but it is flexible enough to be used as a component inside any Kubernetes cluster.
+This component is usually launched by the [Deis Controller](https://github.com/deiscc/controller) and used inside the Deis [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service), but it is flexible enough to be used as a component inside any Kubernetes cluster.
 
 # Development
 
@@ -32,10 +32,10 @@ The Deis project welcomes contributions from all developers. The high level proc
   * If your PR fixes any [issues][issues], make sure you write Fixes #1234 in your PR description (where #1234 is the number of the issue you're closing)
 * The Deis core contributors will review your code. After each of them sign off on your code, they'll label your PR with LGTM1 and LGTM2 (respectively). Once that happens, the contributors will merge it
 
-[issues]: https://github.com/deisthree/slugrunner/issues
-[prs]: https://github.com/deisthree/slugrunner/pulls
+[issues]: https://github.com/deiscc/slugrunner/issues
+[prs]: https://github.com/deiscc/slugrunner/pulls
 [minio]: https://minio.io/
 [s3]: https://aws.amazon.com/s3/
 [gcs]: https://cloud.google.com/storage/
 [azure]: https://azure.microsoft.com/services/storage/
-[v2.18]: https://github.com/deisthree/workflow/releases/tag/v2.18.0
+[v2.18]: https://github.com/deiscc/workflow/releases/tag/v2.18.0
