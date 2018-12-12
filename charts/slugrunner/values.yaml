@@ -1,2 +1,3 @@
 org: "deiscc"
-docker_tag: canary
+docker_tag: "canary"
+docker_registry: ""
